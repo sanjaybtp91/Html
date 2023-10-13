@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            UserName: <input type="text" placeholder="email/mobile" required="true"> <br>
+            password: <input type="password">
+        </form>
+
+    <br>
+        <form action="/contact.php">
+            UserName: <input type="text" placeholder="email/mobile" required="true"> <br>
+            password: <input type="password">
+            <input type="submit">
+
+        </form>
+    <br>
+        <form action="/contact.php" method="post">
+            <label for="email">UserName</label>
+            <input type="text" id="email" placeholder="email" required="true">
+
+            <label for="user_password">password</label>
+            <input type="password" id="user_password"> <br>
+            <input type="submit">
+        </form>
+    <br>
+        <form action="/contact.php">
+        date : <input type="date"> <br>
+        file : <input type="file"> <br>
+        color : <input type="color"><br>
+        price : <input type="range"> <br>
+        poke me : <input type="button" value="poked"> <br>
+        submit : <input type="submit"> <br> <br> <br> <br>
+
+        <label for="male"> Male</label>
+        <input type="radio" id="male" name="gender" value="Male"> <br> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"> <br> <br>
+        <label for="other">Other</label>
+        <input type="radio" id=" other" name="gender" value="Other"> <br> <br> <br>
+
+        <label for="students">Student</label>
+        <input type="checkbox" name="school" id="students" value="student"> 
+        <label for="teacher">teacher</label>
+        <input type="checkbox" name="school" id="teacher" value="teacher"> <br> <br>
+
+        
+        <label for="c"> C</label>
+        <input type="checkbox" id="c" name="language" value="c"> 
+        <label for="Java">Java</label>
+        <input type="checkbox" id="Java" name="language" value="java"> 
+        <label for="ruby">ruby</label>
+        <input type="checkbox" id="ruby" name="language" value="ruby"> 
+        <br><br><br>
+
+        <label for="country">select your country</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="us">us</option>
+            <option value="uk">uk</option>
+        </select> <br><br><br><br>
+
+        <textarea name="feedback" id="feedback" cols="30" rows="10">
+            write your feedback here
+        </textarea>
+        
+        </form>
+
+        
+        
+
+
+
+    </body>
+</html>
